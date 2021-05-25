@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(229, 226, 226);
+    margin:0;
+    padding: 0;
+}
+
+.intestazione{
+    height: 80px;
+    background-color: white;
+    }
+
+.logo{
+    height: 70px;
+    vertical-align: middle;
+}
+
+.title{
+    font-size: 35px;
+    color:darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}    
