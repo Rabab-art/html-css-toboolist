@@ -3,14 +3,16 @@ body{
     margin:0;
     padding: 0;
 }
-
+.contenitore{
+   padding: 30px;
+}
 .intestazione{
     height: 80px;
     background-color: white;
     }
 
 .logo{
-    height: 70px;
+    height: 100%;
     vertical-align: middle;
 }
 
@@ -19,6 +21,7 @@ body{
     color:darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    vertical-align: middle;
 }    
 
 .contenitore{
@@ -31,11 +34,18 @@ margin-right: 15%;
 margin-left:15%;
 }
 
-.input{
-    padding: 30px;
-    
-}
 
 .buttom{
     background-color: rgb(70, 184, 250);
 }
+
+.ul{
+
+  list-style-image: url(https://lh4.googleusercontent.com/-6o-hCK6GULw/UiEydedhX2I/AAAAAAAAjTI/_u9YCgNgGwI/s10/check-10x10.png);  
+}
+li{
+    padding-inline-start: 1px;
+    list-style-position: inherit;}
+    h2{
+        padding: 10px;
+    }
