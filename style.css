@@ -20,3 +20,22 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }    
+
+.contenitore{
+box-sizing: border-box;
+background-color: white;
+border-radius: 5px;
+height: 600px;
+margin:10%;
+margin-right: 15%;
+margin-left:15%;
+}
+
+.input{
+    padding: 30px;
+    
+}
+
+.buttom{
+    background-color: rgb(70, 184, 250);
+}
