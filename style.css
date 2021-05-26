@@ -2,4 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(141, 141, 141);
+}
+
+.header{
+    height: 75px;
+    margin: 0auto;
+    background-color: white;   
+    line-height: 70px; 
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+
+.logo{
+    min-height: 60px;
+    vertical-align: middle;
 }
