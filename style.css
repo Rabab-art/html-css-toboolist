@@ -1,51 +1,5 @@
-body{
-    background-color: rgb(229, 226, 226);
-    margin:0;
+*{
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.contenitore{
-   padding: 30px;
-}
-.intestazione{
-    height: 80px;
-    background-color: white;
-    }
-
-.logo{
-    height: 100%;
-    vertical-align: middle;
-}
-
-.title{
-    font-size: 35px;
-    color:darkblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    vertical-align: middle;
-}    
-
-.contenitore{
-box-sizing: border-box;
-background-color: white;
-border-radius: 5px;
-height: 600px;
-margin:10%;
-margin-right: 15%;
-margin-left:15%;
-}
-
-
-.buttom{
-    background-color: rgb(70, 184, 250);
-}
-
-.ul{
-
-  list-style-image: url(https://lh4.googleusercontent.com/-6o-hCK6GULw/UiEydedhX2I/AAAAAAAAjTI/_u9YCgNgGwI/s10/check-10x10.png);  
-}
-li{
-    padding-inline-start: 1px;
-    list-style-position: inherit;}
-    h2{
-        padding: 10px;
-    }
