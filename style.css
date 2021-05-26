@@ -1,22 +1,132 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(141, 141, 141);
+    box-sizing: border-box;   
 }
-
+body{
+    background-color: rgb(232, 235, 236);
+}
+/* elementi dell'intestazione */
 .header{
     height: 75px;
     margin: 0auto;
-    background-color: white;   
+    background-color: white; 
+    margin-bottom: 20px;  
     line-height: 70px; 
     padding-left: 10px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .logo{
     min-height: 60px;
     vertical-align: middle;
 }
+/* creazione del box  */
+.conteiner{
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 650px;
+    width: 700px;
+    margin:  auto;
+    background-color: white;
+    
+
+}
+
+.bottom{
+background-color: transparent;
+padding: 20px 30px;
+border-bottom: 2px solid;
+border-color: rgb(232, 235, 236);
+}
+
+/* proprietù delle tasks */
+.task1{
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 15px;
+}
+.white{
+    background-color: dodgerblue;
+    color: white;
+    border: dodgerblue;
+    bottom;
+}
+.bluebtn{
+    color: rgb(82, 82, 82);
+    border-color: lightslategray;
+    
+}
+
+.tasks{
+    padding: 20px;    
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    list-style-type: none;
+ list-style-position: inside;
+}
+li{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.check{border: 1px solid;
+    border-radius: 50%;
+    border-color: green;
+    color: green;
+    padding: 3px;  
+    margin-right: 7px;  
+}
+
+.pils{
+    border:1px solid;
+    border-radius:10px;
+    border-color:transparent;
+    padding: 5px;
+    margin-left: 2px;
+    font-size: 13px;
+    color: white;
+}
+.cross{
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: red;
+    color: red; 
+    padding: 3px;  
+    margin-right: 7px;
+    
+}
+
+/* colori dei vari pils */
+
+.blue{
+    background-color: rgb(72, 159, 245);
+}
+.violet{
+    background-color: rgb(198, 113, 238);
+}
+.green{
+    background-color: rgb(63, 175, 132);
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: rgb(245, 116, 180);
+}
+.lightgreen{
+    background-color: rgb(132, 211, 30);
+}
+
